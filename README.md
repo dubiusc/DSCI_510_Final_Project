@@ -13,10 +13,10 @@ The project examines correlations between population statistics, weather variabl
 
 ## Installation and Requirements
 1. Create and activate a virtual environment
-   python3 -m venv venv
-  source venv/bin/activate # macOS/Linux
-  venv\Scripts\activate # Windows
-2. Install dependencies
+python3 -m venv venv
+source venv/bin/activate # macOS/Linux
+venv\Scripts\activate # Windows
+3. Install dependencies
    pip install -r requirements.txt
 
 ## Data Collection
