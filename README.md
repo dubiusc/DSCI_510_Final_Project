@@ -36,7 +36,7 @@ To collect data, run:
 ```bash
 python src/get_data.py
 ```
-This script saves raw datasets to the data/raw/ directory.
+This script saves raw datasets to the data/raw/
 
 ## Data Cleaning
 
@@ -51,7 +51,7 @@ To clean the data, run:
 ```bash
 python src/clean_data.py
 ```
-Cleaned datasets are saved in data/processed/.
+Cleaned datasets are saved in data/processed/
 
 ## Analysis and AQI Computation
 
@@ -83,7 +83,7 @@ python src/visualise_results.py
 ```
 All figures are saved to the results/ directory.
 
-#Authors
+# Authors
 
-##Dubi Sao
-##Manasa Vijayaraghavan
+## Dubi Sao
+## Manasa Vijayaraghavan
