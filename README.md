@@ -1,18 +1,18 @@
 # DSCI_510_Final_Project
 This is a repository to submit the final project for the course DSCI 510 offered by USC
 
-Project Title: How are popula>on sta>s>cs and weather variables correlated with
+# Project Title: How are popula>on sta>s>cs and weather variables correlated with
 air pollu>on levels across major global ci>es?
 
-Team Members:
+## Team Members:
 1. Dubi Sao [3931757486], dsao@usc.edu
 2. Manasa Vijayaraghavan [2685584788], mvijayar@usc.edu
 
-Overview of the Project:
+## Overview of the Project:
  
 The project examines correlations between population statistics, weather variables, and air pollution levels in major global cities. Air Quality Index (AQI) values are calculated using official U.S. EPA formulas derived from pollutant concentrations, and subsequent statistical analyses and visualizations are conducted.
 
-Installation and Requirements
+## Installation and Requirements
 1. Create and activate a virtual environment
    python3 -m venv venv
   source venv/bin/activate # macOS/Linux
@@ -20,7 +20,7 @@ Installation and Requirements
 2. Install dependencies
    pip install -r requirements.txt
 
-Data Collection
+## Data Collection
 
 Raw data is obtained from the following sources:
 
@@ -33,7 +33,7 @@ To collect data, run:
 python src/get_data.py
 This script saves raw datasets to the data/raw/ directory.
 
-Data Cleaning
+## Data Cleaning
 
 The data cleaning process includes:
 
@@ -46,7 +46,7 @@ To clean the data, run:
 python src/clean_data.py
 Cleaned datasets are saved in data/processed/.
 
-Analysis and AQI Computation
+## Analysis and AQI Computation
 
 AQI values are computed programmatically using official U.S. EPA breakpoint formulas based on PM2.5 concentrations. The analysis includes:
 
@@ -58,7 +58,7 @@ AQI values are computed programmatically using official U.S. EPA breakpoint form
 Run the analysis using:
 python src/analysis.py
 
-Visualization
+## Visualization
 
 The analysis script generates the following visualizations:
 
@@ -70,7 +70,7 @@ The analysis script generates the following visualizations:
 
 All figures are saved to the results/ directory.
 
-Authors
+#Authors
 
-Dubi Sao
-Manasa Vijayaraghavan
+##Dubi Sao
+##Manasa Vijayaraghavan
