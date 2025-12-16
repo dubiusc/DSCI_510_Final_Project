@@ -17,9 +17,12 @@ The project examines correlations between population statistics, weather variabl
 python3 -m venv venv
 source venv/bin/activate # macOS/Linux
 venv\Scripts\activate # Windows
-3. Install dependencies
-   pip install -r requirements.txt
+```
 
+3. Install dependencies
+```bash
+   pip install -r requirements.txt
+```
 ## Data Collection
 
 Raw data is obtained from the following sources:
@@ -30,7 +33,9 @@ Raw data is obtained from the following sources:
 4. Open-Meteo Air Quality API: PM2.5, PM10, NO₂, and O₃ concentrations
 
 To collect data, run:
+```bash
 python src/get_data.py
+```
 This script saves raw datasets to the data/raw/ directory.
 
 ## Data Cleaning
@@ -43,7 +48,9 @@ The data cleaning process includes:
 4. Standardizing column formats
 
 To clean the data, run:
+```bash
 python src/clean_data.py
+```
 Cleaned datasets are saved in data/processed/.
 
 ## Analysis and AQI Computation
@@ -56,11 +63,13 @@ AQI values are computed programmatically using official U.S. EPA breakpoint form
 4. Ranking cities by pollution severity
 
 Run the analysis using:
-python src/analysis.py
+```bash
+python src/run_analysis.py
+```
 
 ## Visualization
 
-The analysis script generates the following visualizations:
+The visualise_results script generates the following visualizations:
 
 1. Correlation heatmap of AQI, pollutants, and weather variables
 2. AQI distributions across temperature categories
@@ -68,6 +77,10 @@ The analysis script generates the following visualizations:
 4. Scatter plot of high AQI values versus temperature
 5. Bar chart of the ten most polluted cities
 
+Run the visualisation using:
+```bash
+python src/visualise_results.py
+```
 All figures are saved to the results/ directory.
 
 #Authors
