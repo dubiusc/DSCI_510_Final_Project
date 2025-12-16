@@ -1,8 +1,7 @@
 # DSCI_510_Final_Project
 This is a repository to submit the final project for the course DSCI 510 offered by USC
 
-# Project Title: How are popula>on sta>s>cs and weather variables correlated with
-air pollu>on levels across major global ci>es?
+# Project Title: How are population statistics and weather variables correlated with air pollution levels across major global cities?
 
 ## Team Members:
 1. Dubi Sao [3931757486], dsao@usc.edu
